@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+
+  margin: 30px 170px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.menu {
+  width: 100%;
+  margin: 1rem;
+  padding: 2.5rem;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.boxes {
+  margin: 1.5rem 0;
+  padding: 1.8rem;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 2rem;
+  color: black;
+  background-color: #85929e;
+}
+
+#news {
+  margin: 1.5rem 0;
+  padding: 1.8rem;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 2rem;
+  color: black;
+  background-color: #ccb861;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */ {
+  border: 1px solid black;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  text-align: center;
+}
+#news1 {
+  font-size: 1rem;
+  color: white;
+  background-color: #ccb861;
+}
+/* ----- VERSION DESKTOP ----- */
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: 0;
+}
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+article,
+figure,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  clear: both;
+  margin: 1.5rem 0;
+  padding: 1rem;
+}
+
+figure {
+  padding-right: 1.5rem;
+}
+
+.float-left {
+  float: left;
+}
+
+figcaption {
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+article div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+article div a {
+  font-size: 1.5rem;
+  background-color: #3f4c6b;
+  color: #ffffff;
+  padding: 0.8rem;
+}
+
+footer {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  background-color: #3f4c6b;
+}
+.menufoter {
+  width: 50%;
+}
+#MfUl {
+  display: flex;
+  flex-direction: rangée;
+  justify-content: espace-entre;
+}
+.Mfo {
+  display: flex;
+  align-items: center;
+  width: 5 vw;
+  height: 5 vh;
+  font-size: 0, 7 em;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold !important ;
+  color: #ffffff;
+  background-color: #85929e;
+}
+h3 {
+  color: blanc;
+  font-weight: bold !important ;
+  font-size: 1 em;
+  text-align: center;
+  empty-cells: 5 vh 0 0 0;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+#otherLinks {
+  width: 80 vw;
+  height : 40 vh;
+  empty-cells: 2 vh 0 0;
+}
+#fontAwesomeLinks {
+    display: flex;
+    justify-content : espace-entre;
+    width:  40 vw;
+    font-size : 1,5 em ;
+    margin : 0 automatique ;
+    color : blanc ;
+    
+}
+.fab {
+  font-size: 2rem;
+  padding: 2rem;
+  color: #000000;
+}
+
+/* img {
+    border: 2px solid black;
+} */
+
+/* .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 8rem;
+}
+
+/* .menu {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    text-align: right;
+} */
+
+/* .menu ul {
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    padding: 0 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.menu li a {
+    color: #000000;
+}
+
+a img {
+    width: 450px;
+    height: 100px
+}
+
+p {
+    color: #000000;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+.float-left {
+    float: left;
+    padding-right: 20px;
+}
+
+.box1 {
+    width: 500px;
+    height: 500px;
+    background-color:red;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    background-color:yellow;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    left: 375px;
+    top: 125px;
+} */
